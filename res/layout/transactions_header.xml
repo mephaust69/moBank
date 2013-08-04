@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:background="#0096d7" >
+    
+	<TextView
+	    android:id="@+id/tvTransHeader"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:gravity="left"
+	    android:textSize="20sp"
+	    android:textStyle="bold"
+	    android:textColor="#eeeeee"
+	    android:layout_marginRight="5dp"
+	    android:text="@string/header_title_transactions"/>
+	
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:layout_weight="1"
+	    android:padding="5dp"
+	    android:layout_gravity="center"
+	    android:gravity="center" >
+	    
+	    <TextView
+	        android:id="@+id/tvTransHeaderAccNum"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#e0e0e0"
+	        android:textSize="14sp"
+	        android:text="xxx-xxxxxx-xxx"/>
+	    
+	    <TextView
+	        android:id="@+id/tvTransHeaderDate"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#e0e0e0"
+	        android:textSize="10sp"
+	        android:text="yyyy-MM-dd -> yyyy-MM-dd"/>
+	    
+	</LinearLayout>
+	
+	<ImageView
+	    android:id="@+id/transactions_header_sort_icon"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+		android:paddingLeft="5dp"
+		android:paddingRight="5dp"
+		android:paddingTop="10dp"
+		android:paddingBottom="10dp"
+	    android:src="@drawable/sort_icon"
+	    android:background="@drawable/sortbutton_background"/>
+    
+</LinearLayout>

@@ -1,0 +1,49 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menuRefresh"
+        android:icon="@drawable/menu_icon_refresh"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_refresh"/>
+    <item
+        android:id="@+id/menuOperations"
+        android:icon="@drawable/menu_icon_operations"
+        android:orderInCategory="101"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_operations" >
+        <menu>
+            <item
+                android:id="@+id/menuAccounts"
+                android:icon="@drawable/menu_icon_accounts"
+                android:orderInCategory="102"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/menu_accounts"/>
+            <item
+                android:id="@+id/menuTransfer"
+                android:icon="@drawable/menu_icon_transfer"
+                android:orderInCategory="103"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/menu_transfer"/>
+            <item
+                android:id="@+id/menuTransactions"
+                android:icon="@drawable/menu_icon_transactions"
+                android:orderInCategory="104"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/menu_transactions"/>
+            <item
+                android:id="@+id/menuInfo"
+                android:icon="@drawable/menu_icon_info"
+                android:orderInCategory="105"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/menu_info"/>
+            <item
+                android:id="@+id/menuLogout"
+                android:icon="@drawable/menu_icon_logout"
+                android:orderInCategory="106"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/menu_logout"/>
+        </menu>
+    </item>
+
+</menu>

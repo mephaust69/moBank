@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#666666"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="@string/title_transaction_details"
+        android:layout_marginBottom="22dp"
+        android:textSize="22sp"
+        android:textColor="#ececec"/>
+    
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textSize="18sp"
+	    android:textColor="#1c1c1c"
+	    android:textStyle="italic"
+	    android:text="@string/title_source_account"/>
+	
+	<TextView
+	    android:id="@+id/tvTransDetailSourceAcc"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="20dp"
+	    android:textSize="16sp"
+	    android:textColor="#38c3ff"
+	    android:text="xxx-xxxxxx-xxx"/>
+    
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="10dp"
+	    android:textSize="18sp"
+	    android:textColor="#1c1c1c"
+	    android:textStyle="italic"
+	    android:text="@string/title_target_account"/>
+	
+	<TextView
+	    android:id="@+id/tvTransDetailTargetAcc"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="20dp"
+	    android:textSize="16sp"
+	    android:textColor="#38c3ff"
+	    android:text="xxx-xxxxxx-xxx"/>
+	
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="10dp"
+	    android:textSize="18sp"
+	    android:textColor="#1c1c1c"
+	    android:textStyle="italic"
+	    android:text="@string/title_amount"/>
+	
+	<TextView
+	    android:id="@+id/tvTransDetailAmount"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="20dp"
+	    android:textSize="16sp"
+	    android:textColor="#38c3ff"
+	    android:text="xxxxxx yyy"/>
+	
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="10dp"
+	    android:textSize="18sp"
+	    android:textColor="#1c1c1c"
+	    android:textStyle="italic"
+	    android:text="@string/title_date"/>
+	
+	<TextView
+	    android:id="@+id/tvTransDetailDate"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="20dp"
+	    android:textSize="16sp"
+	    android:textColor="#38c3ff"
+	    android:text="yyyy-MM-dd HH:mm:ss"/>
+	
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="10dp"
+	    android:textSize="18sp"
+	    android:textColor="#1c1c1c"
+	    android:textStyle="italic"
+	    android:text="@string/title_description"/>
+	
+	<TextView
+	    android:id="@+id/tvTransDetailDescription"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="20dp"
+	    android:textSize="16sp"
+	    android:textColor="#38c3ff"
+	    android:text="Description dfhskdfg sd sdf sd fskdgfkls df  sdkfs df sd fksdkj fgskld fskdflksd fkljs fkls dfs"/>
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:id="@+id/transactionsSortByDateAsc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/sortpopup_background"
+        android:orientation="horizontal">
+        
+        <ImageView
+            android:src="@drawable/sort_asc_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="5dp"
+            android:text="@string/asc_by_date"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/transactionsSortByDateDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="@drawable/sortpopup_background"
+        android:orientation="horizontal">
+        
+        <ImageView
+            android:src="@drawable/sort_desc_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#ffffff"
+            android:text="@string/desc_by_date"/>
+        
+    </LinearLayout>
+    
+
+</LinearLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">moBank</string>
+    <string name="login_username">Felhasználónév:</string>
+    <string name="login_username_edittext_hint">Felhasználónév</string>
+    <string name="login_password">Jelszó:</string>
+    <string name="login_password_edittext_hint">Jelszó</string>
+    <string name="button_login_text">Bejelentkezés</string>
+    <string name="no_accounts">A felhasználónak nincs számlája!</string>
+    <string name="menu_accounts">Számlák</string>
+    <string name="menu_transfer">Átutalás</string>
+    <string name="menu_transactions">Számlatörténet</string>
+    <string name="menu_refresh">Frissítés</string>
+    <string name="menu_logout">Kijelentkezés</string>
+    <string name="menu_info">Infó</string>
+    <string name="menu_operations">Opciók</string>
+    <string name="tvSourceAcc">Forrás szla.:</string>
+    <string name="tvTargetAcc">Cél szla.:</string>
+    <string name="tvValue">Összeg:</string>
+    <string name="tvComment">Megjegyzés:</string>
+    <string name="btnTransfer">Utal</string>
+    <string name="btnCancel">Mégse</string>
+    <string name="titleTransfer">Átutalás</string>
+    <string name="transaction_account">Számla:</string>
+    <string name="btnShowTransactions">Mutat</string>
+    <string name="tv_date_from">Kezdő dát.:</string>
+    <string name="tv_date_to">Vég dát.:</string>
+    <string name="dialog_transactions_title">Számlatörténet</string>
+    <string name="title_transaction_details">Tranzakció részletek</string>
+    <string name="title_source_account">Forrás számla:</string>
+    <string name="title_target_account">Cél számla:</string>
+    <string name="title_amount">Összeg:</string>
+    <string name="title_date">Dátum:</string>
+    <string name="title_description">Megjegyzés:</string>
+    <string name="header_title_accounts">Számlák</string>
+    <string name="asc_by_amount">Összeg szerint növ.</string>
+    <string name="desc_by_amount">Összeg szerint csökk.</string>
+    <string name="header_title_transactions">Tranzakciók</string>
+    <string name="asc_by_date">Dátum szerint növ.</string>
+    <string name="desc_by_date">Dátum szerint csökk.</string>
+    <string name="alert_logout_title">Kijelentkezés</string>
+    <string name="alert_logout_message">Biztos benne hogy kijelentkezik?</string>
+    <string name="yes_button">Igen</string>
+    <string name="no_button">Nem</string>
+    <string name="alert_info_message">IND\n\nmoBank v1.0\n\nKészítette:\nÁtyin Ákos\n\nKapcsolat:\natyins@gmail.com</string>
+    <string name="ok_button">OK</string>
+    <string name="pd_accounts_message">Számlák betöltése...</string>
+    <string name="pd_get_transactions_message">Tranzakciók betöltése...</string>
+    <string name="transactions_no_result_message">Nincs találat erre a dátumtartományra!</string>
+    <string name="transactions_no_result_title">Nincs eredmény!</string>
+    <string name="transactions_error_title">Hiba!</string>
+    <string name="pd_login_message">Bejelentkezés...</string>
+    <string name="login_alert_title">Bejelentkezés</string>
+    <string name="login_alert_message">Sikeres bejelentkezés!\n\nÜdvözöljük,\n</string>
+    <string name="pd_logout_message">Kijelentkezés...</string>
+    <string name="pd_transfer_message">Átutalás folyamatban...</string>
+    <string name="transfer_alert_message">Sikeres átutalás!</string>
+    <string name="transfer_alert_title">Átutalás</string>
+    <string name="transfer_alert_error_title">Átutalás hiba!</string>
+    <string name="alert_date_error_one">A kezdő dátum nem lehet későbbi mint a vég dátum!</string>
+    <string name="alert_date_error_two">A kezdő dátum nem lehet későbbi mint a mai dátum!</string>
+    <string name="alert_date_error_title">Dátum hiba!</string>
+    <string name="alert_network_error_title">Hiba!</string>
+    <string name="no_internet_message">Nincs internet kapcsolat!\n\nKérjük ellenőrizze az internet kapcsolatot!</string>
+    <string name="server_error_message">Nem lehet csatlakozni a szerverhez!</string>
+    <string name="access_denied_message">Hozzáférés megtagadva!</string>
+    <string name="unknown_error_message">Ismeretlen hiba!</string>
+    <string name="error_code_zero">Sikeres művelet</string>
+    <string name="error_code_one">Érvénytelen dátumtartomány!</string>
+    <string name="error_code_two">Érvénytelen cél számlaszám!</string>
+    <string name="error_code_three">Érvénytelen dátumformátum!</string>
+    <string name="error_code_four">A forrás és cél számla nem lehet ugyanaz!</string>
+    <string name="error_code_five">Érvénytelen összeg!</string>
+    <string name="error_code_six">A megadott összeg meghaladja a forrás számla egyenlegét!</string>
+    <string name="error_code_seven">A forrás és cél számla pénzneme nem lehet különböző!</string>
+    <string name="error_code_eight">Érvénytelen felhasználónév vagy jelszó!</string>
+
+    
+    
+    <color name="datePressed">#0098da</color>
+    <color name="dateNormal">#38c3ff</color>
+    
+    <color name="sortPressed">#003f65</color>
+    
+    <color name="popupNormal">#404040</color>
+    <color name="popupPressed">#787878</color>
+    
+</resources>

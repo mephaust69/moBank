@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:stretchColumns="2" >
+
+    <TableRow android:layout_marginBottom="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="5dp"
+            android:gravity="right"
+            android:text="@string/transaction_account" />
+
+        <Spinner
+            android:id="@+id/SpinnerAcc"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow android:layout_marginBottom="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="5dp"
+            android:gravity="right"
+            android:text="@string/tv_date_from" />
+
+        <TextView
+            android:id="@+id/dateFrom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/datebutton_background"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Date from"
+            android:textColor="#003f65"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow android:layout_marginBottom="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="5dp"
+            android:gravity="right"
+            android:text="@string/tv_date_to" />
+
+        <TextView
+            android:id="@+id/dateTo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/datebutton_background"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Date to"
+            android:textColor="#003f65"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_vertical"
+            android:layout_span="2"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnShowTransactions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="@string/btnShowTransactions" />
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="@string/btnCancel" />
+        </LinearLayout>
+    </TableRow>
+
+</TableLayout>

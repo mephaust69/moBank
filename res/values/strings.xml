@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">moBank</string>
+    <string name="login_username">Username:</string>
+    <string name="login_username_edittext_hint">Username</string>
+    <string name="login_password">Password:</string>
+    <string name="login_password_edittext_hint">Password</string>
+    <string name="button_login_text">Login</string>
+    <string name="no_accounts">The user has no accounts!</string>
+    <string name="menu_accounts">Accounts</string>
+    <string name="menu_transfer">Transfer</string>
+    <string name="menu_transactions">Transactions</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_info">Info</string>
+    <string name="menu_operations">Options</string>
+    <string name="tvSourceAcc">Source acc.:</string>
+    <string name="tvTargetAcc">Target acc.:</string>
+    <string name="tvValue">Amount:</string>
+    <string name="tvComment">Description:</string>
+    <string name="btnTransfer">Transfer</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="titleTransfer">Money transfer</string>
+    <string name="transaction_account">Account:</string>
+    <string name="btnShowTransactions">Show</string>
+    <string name="tv_date_from">Date From:</string>
+    <string name="tv_date_to">Date To:</string>
+    <string name="dialog_transactions_title">Transactions</string>
+    <string name="title_transaction_details">Transaction details</string>
+    <string name="title_source_account">Source account:</string>
+    <string name="title_target_account">Target account:</string>
+    <string name="title_amount">Amount:</string>
+    <string name="title_date">Date:</string>
+    <string name="title_description">Description:</string>
+    <string name="header_title_accounts">Accounts</string>
+    <string name="asc_by_amount">Asc. By Amount</string>
+    <string name="desc_by_amount">Desc. By Amount</string>
+    <string name="header_title_transactions">Transactions</string>
+    <string name="asc_by_date">Asc. By Date</string>
+    <string name="desc_by_date">Desc. By Date</string>
+    <string name="alert_logout_title">Logout</string>
+    <string name="alert_logout_message">Are you sure you want to logout?</string>
+    <string name="yes_button">Yes</string>
+    <string name="no_button">No</string>
+    <string name="alert_info_message">IND\n\nmoBank v1.0\n\nCreated by:\nÁtyin Ákos\n\nContact:\natyins@gmail.com</string>
+    <string name="ok_button">OK</string>
+    <string name="pd_accounts_message">Loading accounts...</string>
+    <string name="pd_get_transactions_message">Loading transactions...</string>
+    <string name="transactions_no_result_message">No transactions in this date interval!</string>
+    <string name="transactions_no_result_title">No Result!</string>
+    <string name="transactions_error_title">Error!</string>
+    <string name="pd_login_message">Loading...</string>
+    <string name="login_alert_title">Login</string>
+    <string name="login_alert_message">Successful login!\n\nWelcome,\n</string>
+    <string name="pd_logout_message">Logging out...</string>
+    <string name="pd_transfer_message">Transferring...</string>
+    <string name="transfer_alert_message">Successful transfer!</string>
+    <string name="transfer_alert_title">Transfer</string>
+    <string name="transfer_alert_error_title">Transfer Error!</string>
+    <string name="alert_date_error_one">Date from is later than Date to!</string>
+    <string name="alert_date_error_two">Date from is later than today!</string>
+    <string name="alert_date_error_title">Date error!</string>
+    <string name="alert_network_error_title">Error!</string>
+    <string name="no_internet_message">No internet connection!\n\nPlease check your internet access!</string>
+    <string name="server_error_message">Couldn\'t connect to server!</string>
+    <string name="access_denied_message">Access denied!</string>
+    <string name="unknown_error_message">Unknown error!</string>
+    <string name="error_code_zero">Successful operation</string>
+    <string name="error_code_one">Invalid Date interval!</string>
+    <string name="error_code_two">Invalid target account number!</string>
+    <string name="error_code_three">Invalid Date format!</string>
+    <string name="error_code_four">The source and target account cannot be the same!</string>
+    <string name="error_code_five">Invalid amount!</string>
+    <string name="error_code_six">There is not enough funds on the source account!</string>
+    <string name="error_code_seven">Currency of the source and target account must be the same!</string>
+    <string name="error_code_eight">Invalid username or password!</string>
+
+    
+    
+    <color name="datePressed">#0098da</color>
+    <color name="dateNormal">#38c3ff</color>
+    
+    <color name="sortPressed">#003f65</color>
+    
+    <color name="popupNormal">#404040</color>
+    <color name="popupPressed">#787878</color>
+    
+</resources>
